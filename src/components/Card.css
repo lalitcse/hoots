@@ -1,0 +1,71 @@
+/* card styles */
+
+.card{
+    width: 260px;
+    height: 80px;
+    background-color: white;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    padding: 8px;
+    position: relative;
+    cursor: pointer;
+    border: 1px solid #E8E8E8;
+    margin-right: 30px;
+}
+
+.card-primary{
+    display: flex;
+}
+
+.img_part{
+    flex: 0.3;
+}
+
+.data_part{
+    flex: 0.7;
+    padding-left: 12px;
+}
+
+.doc_name p{
+    margin: 0px;
+    padding: 0px;
+    color: #5A5A5A;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.department p{
+    color: #898989;
+    margin: 0px;
+    padding: 0px;
+    font-size: 14px;
+}
+
+.contact i{
+    color: #898989;
+}
+
+.contact label{
+    color: #898989;
+    margin: 0px;
+    padding: 0px;
+    font-size: 14px;
+}
+
+.email i{
+    color: #898989;
+}
+
+.email a{
+    margin: 0px;
+    padding: 0px;
+    font-size: 14px;
+    color: #60ACDF;
+}
+
+.dot_ico{
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    color: #898989;
+}
